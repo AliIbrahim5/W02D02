@@ -140,45 +140,43 @@
 //
 
 //2
-
-const courseInfo = {
-    name: "Code 301",
-    duration: { dayTrack: "4 weeks", eveningTrack: "8 weeks" },
-    topics: [
-        "SMACSS",
-        "APIs",
-        "NodeJS",
-        "SQL",
-        "jQuery",
-        "functional programming",
-    ],
-    finalExam: true,
-};
-
-const getCourseKeys = (obj) => {
-
-      return Object.keys(obj)
-
-};
-
-console.log(getCourseKeys)
+//
+// const courseInfo = {
+//     name: "Code 301",
+//     duration: { dayTrack: "4 weeks", eveningTrack: "8 weeks" },
+//     topics: [
+//         "SMACSS",
+//         "APIs",
+//         "NodeJS",
+//         "SQL",
+//         "jQuery",
+//         "functional programming",
+//     ],
+//     finalExam: true,
+// };
+//
+// const getCourseKeys = (obj) => {
+//
+//       return Object.keys(obj)
+//
+// };
+//
+// console.log(getCourseKeys)
 
 // => ['name', 'duration', 'topics', 'finalExam']
 
 
 //3
-//
+
 // {
 //     GraceHopper: '222-303-5938',
 //         AdaLovelace: '222-349-9842',
 //     AlanTuring: '222-853-5933'
 // }
 
-//HR has asked you to change the data to make it easier to print so that it looks like this:
+// HR has asked you to change the data to make it easier to print so that it looks like this:
 
-// [
-   // 'Grace Hopper: 222-303-5938','Ada Lovelace: 222-349-9842','Alan Turing: 222-853-5933'
-// ]
+// []
 
 //
 // const updateNumbers = (obj) => {
@@ -187,3 +185,69 @@ console.log(getCourseKeys)
 //
 // };
 //
+
+
+//4
+//
+// const PassedOrFailed = function (studentGrades) {
+//     for (const item in studentGrades){
+//
+//         if (studentGrades.grade > studentGrades.total*0.5){
+//
+//     }else {
+//             return "The student have failed"
+//
+//         }
+//
+//
+//      }
+//
+//     return "The student have passed"
+//
+//
+//
+//
+//
+// };
+//
+// const studentOne = {
+//     math: { grade: 70, total: 120 },
+//     english: { grade: 80, total: 100 },
+//     art: { grade: 90, total: 100 }
+// };
+//
+// const studentTwo = {
+//     math: { grade: 59, total: 120 },
+//     english: { grade: 80, total: 100 },
+//     art: { grade: 90, total: 100 }
+// };
+//
+// console.log(PassedOrFailed(studentOne))
+// console.log(PassedOrFailed(studentTwo))
+
+// PassedOrFailed(studentOne); // =>  "The student have passed"
+// PassedOrFailed(studentTwo); // =>  "The student have failed"
+
+
+//5
+//
+// const totalCharacters = (arr) => {
+//     for (const item in arr){
+//
+//         if (arr.length){
+//             return arr.length
+//         }
+//     }
+//
+//
+//
+//
+// };
+// console.log(totalCharacters(["abc","yz"]))
+//
+// totalCharacters(["abc","yz"]) // => 5
+//
+
+
+
+//6
