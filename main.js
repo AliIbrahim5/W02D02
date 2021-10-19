@@ -192,7 +192,7 @@
 // const PassedOrFailed = function (studentGrades) {
 //     for (const item in studentGrades){
 //
-//         if (studentGrades.grade > studentGrades.total*0.5){
+//         if (studentGrades[item]['grade'] > studentGrades[item]['total']*0.5){
 //
 //     }else {
 //             return "The student have failed"
@@ -232,14 +232,15 @@
 //5
 //
 // const totalCharacters = (arr) => {
-//     for (const item in arr){
+//       arr.forEach((item)=>{
 //
-//         if (arr.length){
-//             return arr.length
-//         }
-//     }
+//           item.length
 //
 //
+//
+//     })
+//
+//     return arr.length
 //
 //
 // };
